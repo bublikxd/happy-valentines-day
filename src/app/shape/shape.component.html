@@ -1,3 +1,7 @@
-<p>
-  shape works!
-</p>
+<div>
+    <canvas #canvas
+            (window:resize)="onResize($event)"
+            (mousemove)="onMouseMove($event)"
+            (mousedown)="onMouseDown($event)"
+            (mouseup)="onMouseUp($event)"></canvas>
+</div>
