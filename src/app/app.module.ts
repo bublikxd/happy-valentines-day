@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ShapeComponent } from './shape/shape.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShapeComponent
   ],
   imports: [
     BrowserModule
